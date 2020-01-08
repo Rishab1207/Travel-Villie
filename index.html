@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>Travel Ville</title>
+    <style>
+        header {
+            margin-top: 0;
+            height: 60vh;
+            background: url('resort1.jpg');
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+        }
+
+        /* nav {
+            position: fixed;
+            top: 0;
+        } */
+
+        header>div {
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        section {
+            padding: 0.5rem 0;
+        }
+
+        .social-media {
+            margin-top: 1rem;
+        }
+
+        .contact .card {
+            padding: 1rem 0;
+        }
+
+        .icon {
+            font-size: 28px;
+        }
+
+        .card i {
+            font-size: 44px;
+        }
+
+        .contact-form .card {
+            padding: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="navbar-fixed">
+        <nav class="nav-wrapper teal">
+            <div class="container">
+                <a href="#" class="brand-logo">TravelVille</a>
+                <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Search</a></li>
+                    <li><a href="#">Popular Places</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <ul class="sidenav" id="mobile-menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Search</a></li>
+                    <li><a href="#">Popular Places</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- Landing Page -->
+    <header>
+        <div class="container valign-wrapper white-text center-align">
+            <h2>Take Your Dream Vacation</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, iste.</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </header>
+    <!-- Search Form -->
+    <section id="search-form" class="teal white-text">
+        <div class="container">
+            <h4 class="center-align">Seach Destination</h4>
+            <div class="input-field">
+                <input type="text" id="places" class="white-text">
+                <label for="places" class="white-text">Seach Places</label>
+            </div>
+        </div>
+    </section>
+    <!-- Cards -->
+    <section class="grey lighten-2">
+        <div class="row center-align container">
+            <div class="col s12 l4">
+                <div class="card">
+                    <div class="card-image teal-text">
+                        <i class="material-icons">
+                            location_on
+                        </i>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title">Pick Where</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, tempore!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 l4">
+                <div class="card">
+                    <div class="card-image">
+                        <i class="material-icons teal-text">
+                            airplanemode_active
+                        </i>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title">Fly Cheap</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, tempore!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 l4">
+                <div class="card">
+                    <div class="card-image">
+                        <i class="material-icons teal-text">
+                            subway
+                        </i>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title">Travel Shop</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, tempore!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Places -->
+
+    <div class="container">
+        <h4 class="center-align"><span class="teal-text">Popular </span>Places</h4>
+        <div class="row">
+            <div class="col s12 l4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="resort1.jpg" class="responsive-img">
+                        <span class="card-title">Cancun Mexico</span>
+                    </div>
+                    <div class="card-content">
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum aliquam consectetur,
+                            sit
+                            unde ullam debitis pariatur nulla vel, delectus incidunt distinctio architecto, ad quisquam
+                            optio!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 l4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="resort2.jpg" class="responsive-img">
+                        <span class="card-title">Nova Scotia</span>
+                    </div>
+                    <div class="card-content">
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum aliquam consectetur,
+                            sit
+                            unde ullam debitis pariatur nulla vel, delectus incidunt distinctio architecto, ad quisquam
+                            optio!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 l4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="resort3.jpg" class="responsive-img">
+                        <span class="card-title">The Bahamas</span>
+                    </div>
+                    <div class="card-content">
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum aliquam consectetur,
+                            sit
+                            unde ullam debitis pariatur nulla vel, delectus incidunt distinctio architecto, ad quisquam
+                            optio!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="center-align">
+            <a href="#" class="btn grey darken-3">
+                <i class="material-icons prefix">
+                    send
+                </i>
+                Contact For Booking
+            </a>
+        </div>
+    </div>
+
+    <!-- Social Media -->
+
+    <section class="social-media teal center">
+        <div class="container white-text">
+            <h4>Follow TravelVille</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, incidunt.</p>
+            <div class="container">
+                <div class="row container">
+                    <i class="fab fa-facebook icon col s3"></i>
+                    <i class="fab fa-twitter icon col s3"></i>
+                    <i class="fab fa-linkedin icon col s3"></i>
+                    <i class="fab fa-google icon col s3"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Gallery -->
+
+    <div class="container">
+        <h3 class="center-align"><span class="teal-text">Photo </span>Gallery</h3>
+        <div class="row">
+            <div class="col s12 m3">
+                <img class="materialboxed responsive-img" src="https://source.unsplash.com/1600x900/?beach" alt="">
+            </div>
+            <div class="col s12 m3">
+                <img class="materialboxed responsive-img" src="https://source.unsplash.com/1600x900/?travel" alt="">
+            </div>
+            <div class="col s12 m3">
+                <img class="materialboxed responsive-img" src="https://source.unsplash.com/1600x900/?nature" alt="">
+            </div>
+            <div class="col s12 m3">
+                <img class="materialboxed responsive-img" src="https://source.unsplash.com/1600x900/?beach, travel"
+                    alt="">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s12 m3">
+                <img class="materialboxed responsive-img" src="https://source.unsplash.com/1600x900/?beaches" alt="">
+            </div>
+            <div class="col s12 m3">
+                <img class="materialboxed responsive-img" src="https://source.unsplash.com/1600x900/?traveling" alt="">
+            </div>
+            <div class="col s12 m3">
+                <img class="materialboxed responsive-img" src="https://source.unsplash.com/1600x900/?bridge" alt="">
+            </div>
+            <div class="col s12 m3">
+                <img class="materialboxed responsive-img" src="https://source.unsplash.com/1600x900/?boat, travel"
+                    alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m3">
+                <img class="materialboxed responsive-img" src="https://source.unsplash.com/1600x900/?water" alt="">
+            </div>
+            <div class="col s12 m3">
+                <img class="materialboxed responsive-img" src="https://source.unsplash.com/1600x900/?building" alt="">
+            </div>
+            <div class="col s12 m3">
+                <img class="materialboxed responsive-img" src="https://source.unsplash.com/1600x900/?trees" alt="">
+            </div>
+            <div class="col s12 m3">
+                <img class="materialboxed responsive-img" src="https://source.unsplash.com/1600x900/?cruise" alt="">
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="container contact">
+        <div class="row  center-align">
+            <div class="col s12 m6">
+                <div class="card teal white-text">
+                    <div class="card-image">
+                        <i class="material-icons">
+                            email
+                        </i>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-title">
+                            <h4>Contact Us For Booking</h4>
+                        </div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit omnis nemo non
+                            blanditiis tempore minus, amet officia corporis nam facere.</p>
+                    </div>
+                </div>
+                <ul class="collection with-header  left-align">
+                    <li class="collection-header">
+                        <h3>Location</h3>
+                    </li>
+                    <li class="collection-item">
+                        Travelville Agency
+                    </li>
+                    <li class="collection-item">
+                        555 Beach rd, Suite 33
+                    </li>
+                    <li class="collection-item">
+                        Miami FL, 55555
+                    </li>
+
+                </ul>
+            </div>
+            <div class="col s12 m6">
+                <div class="contact-form">
+                    <form>
+                        <div class="card grey lighten-4">
+                            <div class="card-content">
+                                <h4>Please fill out this form</h4>
+                            </div>
+                            <div class="input-field">
+                                <input type="text" id="name" placeholder="Name">
+                                <label for="name">Name</label>
+                            </div>
+                            <div class="input-field">
+                                <input type="email" id="email" placeholder="Email">
+                                <label for="Email">Email</label>
+                            </div>
+                            <div class="input-field">
+                                <input type="text" id="name" placeholder="Name">
+                                <label for="name">Name</label>
+                            </div>
+                            <div class="input-field">
+                                <input type="number" id="number" placeholder="Phone Number">
+                                <label for="number">Phone</label>
+                            </div>
+                            <div class="input-field">
+                                <textarea id="message" class="materialize-textarea"
+                                    placeholder="Enter Your Message"></textarea>
+                                <label for="message">Message</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="teal valign-wrapper page-footer center-align">
+        <h5>TravelVille &copy; 2019</h5>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.sidenav').sidenav();
+            $('.materialboxed').materialbox();
+        })
+    </script>
+</body>
+
+</html>
